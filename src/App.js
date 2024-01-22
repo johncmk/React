@@ -1,6 +1,6 @@
 import React from "react";
 import './App.css';
-import ImportComponent from './R003_ImportComponent';
+import LifecycleEx from './LifecycleEx';
 
 function App()
 {
@@ -8,7 +8,9 @@ function App()
         <div>
             <h1>Start React 200!</h1>
             <p>Apply CSS</p>
-            <ImportComponent></ImportComponent>
+            <LifecycleEx
+                prop_value = 'FromApp.js'
+            />
         </div>
     )
 }
