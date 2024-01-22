@@ -1,6 +1,6 @@
 import React from "react";
 import './App.css';
-import Map from './Map';
+import Jquery from './Jquery';
 
 function App()
 {
@@ -8,7 +8,7 @@ function App()
         <div>
             <h1>Start React 200!</h1>
             <p>Apply CSS</p>
-            <Map/>
+            <Jquery/>
         </div>
     )
 }
