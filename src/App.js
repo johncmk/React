@@ -1,6 +1,6 @@
 import React from "react";
 import './App.css';
-import Jquery from './Jquery';
+import ReactHOC from './Part3/ReactHOC'
 
 function App()
 {
@@ -8,7 +8,9 @@ function App()
         <div>
             <h1>Start React 200!</h1>
             <p>Apply CSS</p>
-            <Jquery/>
+            <ReactHOC
+                name='React200'
+            />
         </div>
     )
 }
