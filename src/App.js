@@ -1,6 +1,6 @@
 import React from "react";
 import './App.css';
-import ReactHOC from './Part3/ReactHOC'
+import ContextApiParent from './Context/ContextApiParent'
 
 function App()
 {
@@ -8,9 +8,7 @@ function App()
         <div>
             <h1>Start React 200!</h1>
             <p>Apply CSS</p>
-            <ReactHOC
-                name='React200'
-            />
+            <ContextApiParent/>
         </div>
     )
 }
